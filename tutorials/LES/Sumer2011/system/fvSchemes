@@ -37,7 +37,7 @@ divSchemes
     div((rho*phi.solid),U.solid)    Gauss limitedLinearV 1;
     div(phi.solid,U.solid) Gauss limitedLinearV 1;
     div(rhoPhi,U.fluid)    Gauss limitedLinearV 1;
-    div(phi.flu,U.fluid) Gauss limitedLinearV 1;
+    div(phi.fluid,U.fluid) Gauss limitedLinearV 1;
     div(phiRs,Us)   Gauss limitedLinear 1;
     div(phiRf,Uf)   Gauss limitedLinear 1;
     div((rho*Rcs)) Gauss linear;
